@@ -1,0 +1,60 @@
+1️⃣ Read & Reflect (30 min)
+✅ Read Ch. 1-3 of Eloquent JavaScript
+✅ Summarize the key takeaways in your own words (write 3-5 bullet points).
+✅ Optional: Explain one tricky concept in a tweet-length summary.
+
+Chapter 1 Notes:
+
+Values, Types, and Operators:
+* Bits are any kind of two valued things which consist of 0s and 1s. This is how you get binary numbers.
+
+Values:
+* These are pieces of information that is called from functions, names, variables , etc.
+
+Numbers:
+* numeric values / self explanatory
+
+Arithmatic:
+* operations used to calculate the numbers 
+
+Special Numbers:
+* Infinity but not used a lot 
+* NaN : this is most likely an error
+
+Strings:
+* You know this already 
+
+Unary Operators:
+* things like typeof() 
+
+Boolean Values:
+* true/false type shit 
+* in JS:
+&&      ==      !=      <       >       <=      >=      ||      
+===     !==     <--------- These commands to the left cancel out type conversions
+
+Ternary logical operator:
+console.log(true ? 1 : 2)
+->>>> Returns 1
+console.log(false ? 1 : 2)
+->>>> Returns 2
+
+Empty Values:
+* null
+* undefined
+
+Auto type conversion:
+* This is what makes JS a lil wonky 
+* JavaScript knows the type even if you do "5" - 2, it'll know that the 5 is a five and not a string.
+* But if we do "five" - 2 , you'll get NaN as an answer cuz it won't convert the string name.
+
+Short-cirtcuiting of Logical Operators:
+* console.log (null || "user")
+returns user
+* console.log("Agnes" || "user")
+returns "Anges"
+
+
+
+Summary:
+
