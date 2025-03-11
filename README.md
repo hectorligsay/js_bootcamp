@@ -1,3 +1,3 @@
-Javascript bootcamp notes and exercises.
+Javascript bootcamp notes and exercises refresher.
 
 Book: Eloquent Javascript
